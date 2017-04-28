@@ -1,0 +1,18 @@
+# http://betterthangrep.com/ - 'File types that ack understands'
+--type-add=ruby=.haml
+--type-add=objc=.pch
+--type-add=css=.scss,.sass
+--type-set=cucumber=.feature
+--type-set=xcode=.pbxproj,.pbxuser,.perspectivev3
+--type-set=ragel=.rl
+--type-set=nib=.xib
+--type-set=plist=.plist
+--type-set=tmstuff=.tmproj,.tm_build_errors
+--type-set=ini=.ini,.cfg
+--type-set=log=.log
+--type-set=bin=.pdf
+--nonib
+--notmstuff
+--noxcode
+--nolog
+--nobin
