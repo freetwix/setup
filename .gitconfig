@@ -1,0 +1,30 @@
+[user]
+  name = Jochen Kramer
+  email = freetwix@web.de
+[color]
+  status = auto
+  diff = auto
+  branch = auto
+[merge]
+  summary = true
+[core]
+  excludesfile = /Users/jochenkramer/.gitignore
+  whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+[alias]
+  ci = commit
+  st = status
+  ss = status -s
+  co = checkout
+  br = branch
+  df = diff
+  dc = diff --cached
+  ls = ls-files
+  l  = !git --no-pager log --max-count=20 --pretty=tformat:\"%C(yellow)%h %Cblue%ar\t%Cgreen%an %Creset%s\" #thx blindgaenger
+	g = grep --break --heading --line-number
+[push]
+  default = current
+[branch]
+  autosetuprebase = always
+[grep]
+	lineNumber = true
+	extendRegexp = true
